@@ -1,3 +1,5 @@
+//Program to demonstrate the use of operators
+
 import java.util.*;
 
 public class Arithmatic {
