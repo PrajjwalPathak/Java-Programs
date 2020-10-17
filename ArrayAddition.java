@@ -1,3 +1,5 @@
+//Program to find the sum of elements of any two arrays
+
 import java.util.*;
 
 class ArrayAddition {
