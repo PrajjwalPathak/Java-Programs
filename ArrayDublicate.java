@@ -1,4 +1,5 @@
 //Program to find the number of dublicate elements in an array
+
 import java.util.*; 
 
 class ArrayDublicate {
