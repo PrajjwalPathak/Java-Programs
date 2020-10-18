@@ -1,4 +1,6 @@
-import java.util.Scanner;  
+//Program to demonstrate Linear Search Algorithm
+
+import java.util.*;  
    
 class LinearSearch {  
     public static void main(String args[]) {  
