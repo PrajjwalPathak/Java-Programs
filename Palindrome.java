@@ -1,4 +1,7 @@
+//Program to check if a number is a palindrome or not
+
 import java.util.*;
+
 class Palindrome {
     public static void main(String args[]) {
         int n, t, r = 0;
