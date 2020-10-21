@@ -1,4 +1,7 @@
+//Program to sort an array in ascending order (Sorting)
+
 import java.util.*;
+
 public class SortAsc {    
     public static void main(String[] args) {        
                 
