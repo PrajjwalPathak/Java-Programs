@@ -1,3 +1,5 @@
+//Program to take the array input from the user 
+
 import java.util.*;
 
 class ArrayInput {
