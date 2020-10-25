@@ -1,20 +1,23 @@
 //Program to find if a number is Even or Odd
+
 import java.util.*;
 
-public class EvenOdd {
-public static void main(String args[]) {
-    int num;
-    Scanner s = new Scanner(System.in);
+class EvenOdd {
 
-    System.out.print("Enter number: ");
-    num = s.nextInt();
-    
-    if(num % 2 == 0) {
-        System.out.println("Number is Even");
+    public static void main(String args[]) {
+        int num;
+        
+        Scanner s = new Scanner(System.in);
+
+        System.out.print("Enter number: ");
+        num = s.nextInt();
+        
+        if(num % 2 == 0) {
+            System.out.println("Number is Even");
+        }
+        else {
+            System.out.println("Number is Odd");
+        }
     }
-    else {
-        System.out.println("Number is Odd");
-    }
-}
 }
 
