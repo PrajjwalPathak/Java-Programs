@@ -1,29 +1,29 @@
-//Program to display the fibonacci series from a start point to the end point
+//Program to generate Fibonacci series of n elements
 
 import java.util.*;
 
 class Fibonacci {
-
-	public static void main(String args[]) {
-    	
-    	int num, f0 = 0, f1 = 1, temp;
-    	System.out.print("Enter the position of the term in Fibonacci Series: ");
+    
+    public static void main(String args[]) {
+        int n, i, t1=1, t2=1, t3;
         Scanner s = new Scanner(System.in);
-        num = s.nextInt();
 
-        if(num == 1) {
-            System.out.println("Answer: 0");
+        System.out.print("Write a positive number to print Fibonaci series: ");
+        n = s.nextInt();
+        if(n==1) {
+            System.out.print(t1);
         }
-        else if(num == 2) {
-            System.out.println("Answer: 1");
+        else if(n==2) {
+            System.out.print(t1+" "+t2);
         }
         else {
-            for(int i = 1; i < num-1; i++) {
-                temp = f1;
-                f1 = f1 + f0;
-                f0 = temp;
+            System.out.print(t1+" "+t2+" ");
+            for(i=2;i<n;i++) {
+                t3 = t1+t2;
+                System.out.print(t3+" ");
+                t1=t2;
+                t2=t3;
             }
-            System.out.println("Answer: "+ f1);
-		}
-	}
+        }
+    }
 }
