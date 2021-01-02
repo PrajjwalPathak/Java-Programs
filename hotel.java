@@ -1,4 +1,5 @@
-/*Program to display number of rooms occupied and vacant in a Hotel having 10 floors
+/*
+Program to display number of rooms occupied and vacant in a Hotel having 10 floors
 Input:
 3        Number of rooms on the floor
 1 1 1    Occupied and Vacant rooms
@@ -9,6 +10,7 @@ Input:
 3
 1 1 1  and so on
 */
+
 import java.util.*;
 
 class Hotel {
