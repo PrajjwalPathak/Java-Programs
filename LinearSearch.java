@@ -6,31 +6,32 @@ class LinearSearch {
 
     public static void main(String args[]) { 
 
-        int c, n, search, array[];  
+        int c, n, item, array[];  
    
         Scanner in = new Scanner(System.in);  
 
         System.out.println("Enter number of elements");  
         n = in.nextInt();   
-        array = new int[n];  
+        array = new int[n]; 
+
         System.out.println("Enter those " + n + " elements");  
    
-        for(c = 0; c < n; c++) {
+        for(c=0;c<n;c++) {
             array[c] = in.nextInt();  
         }
 
         System.out.println("Enter value to find");  
-        search = in.nextInt();  
+        item = in.nextInt();  
    
         for(c = 0; c < n; c++) {  
-            if (array[c] == search) {  
-                System.out.println(search + " is present at location " + (c + 1));  
+            if (array[c] == item) {  
+                System.out.println(item + " is present at location " + (c + 1));  
                 break;  
             }  
         } 
          
         if(c == n) {
-            System.out.println(search + " isn't present in array.");  
+            System.out.println(item + " isn't present in array.");  
         }  
     }  
 } 
