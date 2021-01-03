@@ -8,7 +8,7 @@ Input:
 2
 1 1
 3
-1 1 1  and so on
+1 1 1  and so on.
 */
 
 import java.util.*;
