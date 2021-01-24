@@ -9,7 +9,10 @@ class Prime {
 
         System.out.print("Enter a number: ");
         n = s.nextInt();
-        if(n==0 || n==1) {
+        if(n<0) {
+            System.out.print("Invalid - Write numbers greater than 0");
+        }
+        else if(n==0 || n==1) {
             System.out.print("Not a Prime");
         }
         else if(n==2 || n==3) {
